@@ -13,7 +13,7 @@ namespace Stylique_Fashion
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!int.TryParse(Request.QueryString["id"], out productId))
+            if (!int.TryParse(Request.QueryString["id"], out ProductId))
             {
                 Response.Redirect("product.aspx");
                 return;
