@@ -1,0 +1,16 @@
+﻿# Build folders
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.log
+
+# Database files
+*.mdf
+*.ldf
+
+# Other unnecessary files
+*.pdb
